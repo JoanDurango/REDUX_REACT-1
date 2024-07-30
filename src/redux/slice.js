@@ -25,7 +25,7 @@ const userSlice = createSlice({
 
 //Exportar las acciones de los slices
 export const {increment, decrement} = counterSlice.actions;
-export const { setName } = counterSlice.actions;
+export const { setName } = userSlice.actions;
 
 //Exportar los reducers
 export const counterReducer = counterSlice.reducer;
