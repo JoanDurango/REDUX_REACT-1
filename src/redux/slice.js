@@ -5,11 +5,10 @@ const counterSlice = createSlice({
     name: 'counter',
     initialState: 0,
     reducers: {
-        //Definir cual es el reducer para incrementar el contador   
+        //Definir cual es el reducer para incrementar el contador
         increment: state => state + 1,
-        //Definir cual es el reducer para decrementar el contador   
+        //Definir cual es el reducer para decrementar el contador
         decrement: state => state - 1
-        
     }
 });
 
